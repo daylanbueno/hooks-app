@@ -30,7 +30,7 @@ function App() {
         <>
             <ul>
                 {tech.map(item => (
-                    <li>{item}</li>
+                    <li key={item}>{item}</li>
                 ))}
             </ul>
             <strong>Você tem {techSize} tecnologias </strong>
